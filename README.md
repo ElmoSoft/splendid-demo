@@ -37,9 +37,13 @@ Class src.main.java.net.elmosoft.splendid.utils.IMobileUtils - swipe, scroll, et
 
 ### Available Options List
  `- Dbrowser` ["CHROME", "ANDROID", "IOS", "FIREFOX"]
+ 
  `- DremoteDriver` [boolean] - Default: false. Used to identify where to find driver: locally or by remote address
+ 
  `- DremoteWebdriverUrl` [string] - By default 0.0.0.0, port default 4444
+ 
  `- DautoScreenshot` [boolean] - Default: false. Global switch for taking screenshots. When disabled, screenshots will be captured only after failures
+ 
  `- Dheadless` - Default: false. Run tests in headless browser mode. Enabled when headless=true. 
 
 src/test/resources/local.properties - IOS/Android capability configuration
